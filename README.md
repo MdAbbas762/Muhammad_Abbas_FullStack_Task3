@@ -1,7 +1,7 @@
 # 🌐 Creative Web Demo - Full-Stack Task 3  
 
 ## 📌 Project Overview  
-This is a small, beginner-level project completed as part of an internship task. The aim was to turn a basic landing page into a working example of how a front-end form sends data to a backend server and how that data is stored in a database. The project keeps the design simple and focuses on understanding the basic flow of a full-stack application.  
+This is a small, beginner-level project completed as part of an internship task at **CoreTech Innovations**. The aim was to turn a basic landing page into a working example of how a front-end form sends data to a backend server and how that data is stored in a database. The project keeps the design simple and focuses on understanding the basic flow of a full-stack application.  
 
 ---  
 
@@ -50,3 +50,5 @@ Below are the main parts of the project. Each section shows what was implemented
 ![Screenshot 2](/screenshots/ss.2.PNG)  
 ![Screenshot 3](/screenshots/ss.3.PNG)  
 ![Screenshot 4](/screenshots/ss.4.PNG)  
+![Screenshot 5](/screenshots/ss.5.PNG)  
+![Screenshot 6](/screenshots/ss.6.PNG)  
