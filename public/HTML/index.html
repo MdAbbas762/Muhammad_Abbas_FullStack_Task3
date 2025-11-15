@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/Styles/style.css">
+    <title>Creative Web Experience</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="top-section">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero-section">
+            <video autoplay muted loop playsinline class="hero-video">
+                <source src="/videos/bg_video.mp4" type="video/mp4">
+            </video>
+
+            <div class="hero-content">
+                <h1>Turning Ideas Into Interactive Web Experiences</h1>
+                <p>I bring ideas to life with code, crafting web solutions that are visually appealing, fully
+                    responsive, and built for real impact.</p>
+                <button><a href="#contact">Get in Touch</a></button>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <h2>Contact Me</h2>
+            <form action="/submit" method="post">
+                <label for="name">Enter your name</label>
+                <input type="text" name="username" id="name" placeholder="Type here...">
+                <label for="email">Enter your email</label>
+                <input type="email" name="email" id="email" placeholder="Type here...">
+                <label for="message">Enter your message</label>
+                <textarea name="message" id="message" placeholder="Type here..." rows="4" cols="50"></textarea>
+                <button type="submit" id="btn">Submit</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="social-links">
+                <a href="#" title="Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#" title="X"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fa-brands fa-square-linkedin"></i></a>
+            </div>
+            <p>&copy; 2025. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="/Scripts/script.js"></script>
+</body>
+
+</html>
